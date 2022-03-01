@@ -1,0 +1,119 @@
+.cards {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	background: transparent;
+
+	@media (max-width: $tablet-width) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media (max-width: $mobile-width-only) {
+		width: 320px;
+	}
+}
+.cards_close {
+	display: none;
+}
+
+.cards_greece {
+	.tab-review__author {
+		&:before {
+			background-image: url("../img/greece/greece-reviewer.png");
+		}
+	}
+}
+
+.cards_albania {
+	.tab-review__author {
+		&:before {
+			background-image: url("../img/albania/albania-reviewer.png");
+		}
+	}
+}
+
+.cards_macedonia {
+	.tab-review__author {
+		&:before {
+			background-image: url("../img/macedonia/macedoia-reviewer.png");
+		}
+	}
+}
+
+.cards_montenegro {
+	.tab-review__author {
+		&:before {
+			background-image: url("../img/montenegro/montenegro-reviewer.png");
+		}
+	}
+}
+
+.cards_croatia {
+	.tab-review__author {
+		&:before {
+			background-image: url("../img/croatia/croatia-reviewer.png");
+		}
+	}
+}
+
+.cards__image--greece {
+	background-image: url("../img/greece/greece-tab-desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (min-resolution: 2dppx) {
+		background-image: url("../img/greece/greece-tab-desk@2x.jpg");
+	}
+
+	@media (max-width: $tablet-width) {
+		background-image: url("../img/greece/greece-tab.jpg");
+
+		@media (min-resolution: 2dppx) {
+			background-image: url("../img/greece/greece-tab@2x.jpg");
+		}
+	}
+	@media (max-width: $mobile-width-only) {
+		background-image: url("../img/greece/greece-tab-mob.jpg");
+
+		@media (min-resolution: 2dppx) {
+			background-image: url("../img/greece/greece-tab-mob@2x.jpg");
+		}
+	}
+}
+
+.cards__image--albania {
+	background-image: url("../img/albania/albania-tab-desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (min-resolution: 2dppx) {
+		background-image: url("../img/albania/albania-tab-desk@2x.jpg");
+	}
+}
+
+.cards__image--macedonia {
+	background-image: url("../img/macedonia/macedoia-tab-desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media (min-resolution: 2dppx) {
+		background-image: url("../img/macedonia/macedoia-tab-desk@2x.jpg");
+	}
+}
+.cards__image--montenegro {
+	background-image: url("../img/montenegro/montenegro-tab-desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media (min-resolution: 2dppx) {
+		background-image: url("../img/montenegro/montenegro-tab-desk@2x.jpg");
+	}
+}
+.cards__image--croatia {
+	background-image: url("../img/croatia/croatia-tab-desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media (min-resolution: 2dppx) {
+		background-image: url("../img/croatia/croatia-tab-desk@2x.jpg");
+	}
+}

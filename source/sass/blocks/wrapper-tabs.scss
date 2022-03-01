@@ -1,0 +1,33 @@
+.wrapper-tabs {
+	width:1170px;
+	height:auto;
+	margin:124px auto 0;
+
+	@media (max-width:$tablet-width) {
+		width:100%;
+		overflow-y:hidden;
+		overflow-x:scroll;
+		padding:0 0 40px 0;
+	}
+
+	@media (max-width:$mobile-width-only) {
+	}
+}
+
+.wrapper-tabs__countries {
+	@media (max-width:$tablet-width) {
+		padding:0 0 0 22px;
+		margin: 0 auto 0 auto;
+		width:746px;
+		overflow-x:scroll;
+	}
+
+	@media (max-width:$mobile-width-only) {
+		width:288px;
+
+	}
+}
+.wrapper-tabs__countries::-webkit-scrollbar {
+	width:0;
+	height:0;
+}

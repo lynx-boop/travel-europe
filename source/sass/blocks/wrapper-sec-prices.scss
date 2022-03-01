@@ -1,0 +1,15 @@
+.wrapper-sec-prices {
+	display: flex;
+	justify-content:space-between;
+	margin: 0 94px 0 0;
+
+	@media (max-width:$tablet-width) {
+		margin:40px 0 0 0;
+	}
+
+	@media (max-width:$mobile-width-only) {
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+}

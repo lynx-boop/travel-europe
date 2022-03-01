@@ -1,0 +1,25 @@
+.list {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 50px 0 0;
+	font-size: 14px;
+	line-height: 17px;
+	color: $grey-transparent-05;
+
+	@media (max-width: $mobile-width-only) {
+		text-align: center;
+		margin: 0;
+		width: 50%;
+	}
+}
+.list:last-child {
+	margin: 20px 37px 0 0;
+
+	@media (max-width: $mobile-width-only) {
+		margin: 20px 0 30px 0;
+	}
+}
+
+.list li {
+	margin: 0 0 10px 0;
+}

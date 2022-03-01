@@ -1,0 +1,27 @@
+.page-footer {
+	width:1170px;
+	height:auto;
+	display: flex;
+	justify-content:space-between;
+	margin:160px auto 74px;
+
+	@media (max-width:$tablet-width) {
+		width:726px;
+		display: grid;
+		grid-template-areas:
+			"countries contacts"
+			"site site";
+		grid-template-columns:396px 330px;
+		grid-template-rows:208px 154px;
+		margin:80px auto 0;
+	}
+
+	@media (max-width:$mobile-width-only) {
+		display: flex;
+		width:100%;
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		margin:60px auto 0;
+	}
+}

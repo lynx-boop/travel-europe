@@ -1,0 +1,18 @@
+.wrapper-cards {
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	margin:55px 0 0 0;
+
+	@media (max-width:$tablet-width) {
+		margin:40px 0 0 0;
+	}
+
+	@media (max-width:$mobile-width-only) {
+		flex-direction:column;
+		flex-wrap:no-wrap;
+	}
+}

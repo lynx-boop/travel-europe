@@ -1,0 +1,19 @@
+.wrapper-prices {
+	width:1170px;
+	height:auto;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:row-reverse;
+	margin:220px auto 0;
+
+	@media (max-width:$tablet-width) {
+		width:747px;
+		flex-direction:column;
+		margin:80px auto 0;
+	}
+
+	@media (max-width:$mobile-width-only) {
+		width:100%;
+	}
+}

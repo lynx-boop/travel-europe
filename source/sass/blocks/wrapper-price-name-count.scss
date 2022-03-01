@@ -1,0 +1,10 @@
+.wrapper-price-name-count {
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+
+	@media (max-width:$tablet-width) {
+		flex-direction:column;
+		justify-content:center;
+	}
+}
